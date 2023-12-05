@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import es.ieslosmontecillos.componentes_vignolothiago.CampoTextoBoton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="250.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.ieslosmontecillos.di_t3a462_appusotextoboton.AppUsoBotonController">
+   <children>
+      <Label fx:id="lblName" layoutX="97.0" layoutY="183.0" prefHeight="17.0" prefWidth="140.0" />
+      <Label fx:id="lblSurname" layoutX="97.0" layoutY="200.0" prefHeight="17.0" prefWidth="140.0" />
+      <Label layoutX="18.0" layoutY="37.0" text="Nombre" />
+      <Label layoutX="18.0" layoutY="81.0" text="Apellido" />
+      <Label layoutX="40.0" layoutY="183.0" text="Nombre:" />
+      <Label layoutX="40.0" layoutY="200.0" text="Apellido:" />
+      <CampoTextoBoton fx:id="nameField" layoutX="87.0" layoutY="33.0" onAction="#nameUpdate" />
+      <CampoTextoBoton fx:id="surnameField" layoutX="87.0" layoutY="77.0" onAction="#surnameUpdate" />
+   </children>
+</AnchorPane>
